@@ -50,7 +50,7 @@
   },"7": {
     "doc": "Software Updates",
     "title": "Step 1: Download the lastest software",
-    "content": "The latest stable release can be found here: DiscoX Repo. Right-click the downloaded file and select Extract All… to unzip its contents. ",
+    "content": "The latest stable release can be found here: DiscoX Latest Stable. Once downloaded, right-click the downloaded zip-folder and select Extract All… to unzip its contents. ",
     "url": "/DiscoX_Documentation/docs/layout/Software%20Updates/#step-1-download-the-lastest-software",
     
     "relUrl": "/docs/layout/Software%20Updates/#step-1-download-the-lastest-software"

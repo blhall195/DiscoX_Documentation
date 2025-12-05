@@ -92,7 +92,7 @@
   },"13": {
     "doc": "User Instructions",
     "title": "Table of contents",
-    "content": ". | Buttons | Taking readings | Display | Blutooth &amp; memory | Settings . | Enter Calibration | Anomoly detection | Accuracy | Laser off | Shutdown | . | . ",
+    "content": ". | Buttons | Taking readings | Display | Blutooth &amp; memory | Settings . | Anomoly detection | Accuracy | Laser off | Shutdown | Exit | . | Calibration . | Ellipsoid calibration | Alignment calibration | . | . ",
     "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#table-of-contents",
     
     "relUrl": "/docs/layout/User%20Instructions/#table-of-contents"
@@ -127,18 +127,25 @@
   },"18": {
     "doc": "User Instructions",
     "title": "Settings",
-    "content": "There are two ways to change the DiscoX settings: using the onboard menu, or editing a more comprehnsive settings.toml file after connecting the device to your PC. To enter the onboard menu press and hold button 3. Enter Calibration . This puts the device into calibration mode, see calibration section. Anomoly detection . This checks for magnetic anomoies, e.g. putting the device too close to your helmet light, watch, srt kit or bolt. Sometimes gives false readings so can be turned off. Accuracy . With the current software version noise is supressed through averaing lots of readings, with the accuracy set high the device averages more readings before registering a shot. So it may be harder to take shots if you have a higher accuracy setting but your survey will be more accurate. Laser off . Having the laser on for long periods damages the laser and wastes battery, to prevent you from accidentally leaving it on you can make it automatically turn off after a set amount of time. Shutdown . This defines the amount of time of inactivity before the device is turned off. ",
+    "content": "There are two ways to change the DiscoX settings: using the onboard menu, or editing a more comprehnsive settings.toml file after connecting the device to your PC. To enter the onboard menu press and hold button 3. Anomoly detection . This checks for magnetic anomoies, e.g. putting the device too close to your helmet light, watch, srt kit or bolt. Sometimes gives false readings so can be turned off. Accuracy . In the current software, sensor noise is reduced by averaging multiple readings. With a higher accuracy setting, the device averages more readings before recording a shot. This can make taking shots slower, but it improves the accuracy of your survey. Laser off . Keeping the laser on for long periods can damage it and drain the battery. To prevent this, you can set it to turn off automatically after a specified time. Shutdown . This sets how long the device will remain idle before automatically turning off. Exit . Returns you to the main screen where you can resume your readings . ",
     "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#settings",
     
     "relUrl": "/docs/layout/User%20Instructions/#settings"
   },"19": {
+    "doc": "User Instructions",
+    "title": "Calibration",
+    "content": "Calibration should be performed whenever you survey in a new area or if you suspect your readings are inaccurate. It’s recommended to keep a set of base stations near your home or survey site to quickly verify your DistoX readings before each trip. To calibrate, enter the menu and select “Enter calibration mode”, then choose either ellipsoid calibration or alignment calibration. Ellipsoid calibration . Calibrating the DiscoX is similar to calibrating a DistoX and requires 56 readings (14 sets of 4 readings). | In each set, the 4 readings are taken from the pointed tip at the back of the DiscoX to a single fixed point. | Rotate the DiscoX (“barrel-roll”) so the screen points up, right, down, and left for each reading in the set. | Spread the 14 fixed points widely. One way to imagine this is to place the tip of the DiscoX at the center of an imaginary cube: . | Take 6 sets aimed at the middle of each cube face (up, down, and four roughly horizontal directions at 90° to each other). | Take 8 sets aimed at the 8 corners of the cube. | . Each set of 4 readings should be from the same tip-to-point measurement, but the exact location of the 14 fixed points is flexible and the alignment doesn’t matter too much. Just that there is a wide range of positions and the DiscoX is held steady, using a jig makes it easier. After all 56 readings, the DiscoX calculates the ellipsoid calibration coverage, smaller numbers are better. Alignment calibration . Take 3 sets of 8 readings. Each set is measured from the pointed tip at the back of the DiscoX to a single fixed point. The fixed points for each set should be roughly 90° apart. For example: . | Set 1: ahead . | Set 2: to the right . | Set 3: vertically up . | . For each of the 8 readings in a set, barrel-roll the DiscoX (rotate it along its long axis) by roughly 45° between readings. Important: All 8 readings in a set must be measured between the same tip-to-point line. Calibration Accuracy: . The standard deviation of angular error indicates quality: . | Excellent: &lt; 0.25 | Acceptable: &lt; 0.5 Lower values are better. | . ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#calibration",
+    
+    "relUrl": "/docs/layout/User%20Instructions/#calibration"
+  },"20": {
     "doc": "Introduction",
     "title": "The DiscoX",
     "content": "This website provides the most upto date technical infomation about the DiscoX cave survey device. The DiscoX is based on the SAP6 platform. The main differences being, the case design, user interface and microcontroller hardware. ",
     "url": "/DiscoX_Documentation/#the-discox",
     
     "relUrl": "/#the-discox"
-  },"20": {
+  },"21": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": " ",

@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Build Instructions",
     "title": "How to make your own DiscoX",
-    "content": "The DiscoX is priced such that considering individual component postage and possible build mistakes it’s almost certainly cheaper to buy a DiscoX pre-built than to make your own. That said one of the core design features of the DiscoX is that it is relativley modular. Meaning as time goes on and they inevitibly break, they should be relativley cheap to repair. ",
+    "content": "The DiscoX is priced such that considering individual component postage and possible build mistakes it’s almost certainly cheaper to buy a DiscoX pre-built than to make your own. That said for anyone wanting to make one for fun or anyone curious. Here’s how a DiscoX is made. This is a work in progress, I’ll finish it after I’ve written the user instructions. ",
     "url": "/DiscoX_Documentation/docs/layout/Build%20Instructions/#how-to-make-your-own-discox",
     
     "relUrl": "/docs/layout/Build%20Instructions/#how-to-make-your-own-discox"
@@ -92,32 +92,53 @@
   },"13": {
     "doc": "User Instructions",
     "title": "Table of contents",
-    "content": ". | Turning the Device On/Off | Taking a shot | . ",
+    "content": ". | Buttons | Taking readings | Display | Blutooth &amp; memory | Settings . | DiscoX onboard menu | . | . ",
     "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#table-of-contents",
     
     "relUrl": "/docs/layout/User%20Instructions/#table-of-contents"
   },"14": {
     "doc": "User Instructions",
-    "title": "Turning the Device On/Off",
-    "content": "The device has a latching button switch to control power to the device, press the button for at least 50ms to turn the device on and press it again to turn the device off. ",
-    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#turning-the-device-onoff",
+    "title": "Buttons",
+    "content": "The DiscoX has four buttons, labeled 1–4 in the image below. Pressing 1 takes a reading, 2 activates Disco mode, and holding 3 opens the settings menu. Button 4 turns the device on/off. In menu mode, buttons 1–3 have different functions: 1 moves up the menu, 2 moves down, and 3 selects an item. ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#buttons",
     
-    "relUrl": "/docs/layout/User%20Instructions/#turning-the-device-onoff"
+    "relUrl": "/docs/layout/User%20Instructions/#buttons"
   },"15": {
     "doc": "User Instructions",
-    "title": "Taking a shot",
-    "content": "Test Words . If the path to your favicon is /favicon.ico, you can leave favicon_ico unset. ",
-    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#taking-a-shot",
+    "title": "Taking readings",
+    "content": "To take a reading, press and hold button 1, or press it for longer than 100 ms (shorter presses are ignored). After you press the button, the DiscoX stays red until it detects the device is stable. Once stable, it turns green and records the reading. The DiscoX includes a leg-detection algorithm that triggers when it gets three consecutive readings where the compass, clino, and magnetometer values all fall within a set tolerance. When a leg is detected, the DiscoX flashes and beeps 3 times then turns purple. ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#taking-readings",
     
-    "relUrl": "/docs/layout/User%20Instructions/#taking-a-shot"
+    "relUrl": "/docs/layout/User%20Instructions/#taking-readings"
   },"16": {
+    "doc": "User Instructions",
+    "title": "Display",
+    "content": "The display shows the data from your most recent reading. When Bluetooth is disconnected, readings are stored in memory. The count of stored readings appears next to the battery icon at the top of the screen. ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#display",
+    
+    "relUrl": "/docs/layout/User%20Instructions/#display"
+  },"17": {
+    "doc": "User Instructions",
+    "title": "Blutooth &amp; memory",
+    "content": "The DiscoX works with current versions of SexyTopo and TopoDroid. It’s always advertising over Bluetooth, so nearby devices will pick it up. Once connected, a BT icon appears in the top-left of the screen and you will be able to send live readings to your phone. If stored readings are present, the device will transmit them to your phone after connecting; this can take a few seconds, longer if many readings are queued. DO NOT turn the DiscoX off during this period or your readings will be lost. Feature request: In future versions of the software I’ll make it so you can save the latest 10 reading backup files to memory so you can retrive them if you run into connectivity/upload issues. Your DiscoX will come with a unique name e.g. DiscoX_Sasquatch, this name can only be changed by opening the case and programming the Bluetooth module directly. If you name a specific name in mind let me know and I can name it before assebling one. ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#blutooth--memory",
+    
+    "relUrl": "/docs/layout/User%20Instructions/#blutooth--memory"
+  },"18": {
+    "doc": "User Instructions",
+    "title": "Settings",
+    "content": "There are two ways to change the DiscoX settings: using the onboard menu, or editing a more comprehnsive settings.toml file after connecting the device to your PC. DiscoX onboard menu . To enter the onboard menu press and hold button 3. ",
+    "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#settings",
+    
+    "relUrl": "/docs/layout/User%20Instructions/#settings"
+  },"19": {
     "doc": "Introduction",
     "title": "The DiscoX",
     "content": "This website provides the most upto date technical infomation about the DiscoX cave survey device. The DiscoX is based on the SAP6 platform. The main differences being, the case design, user interface and microcontroller hardware. ",
     "url": "/DiscoX_Documentation/#the-discox",
     
     "relUrl": "/#the-discox"
-  },"17": {
+  },"20": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": " ",

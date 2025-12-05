@@ -34,36 +34,36 @@
     
     "relUrl": "/docs/layout/Build%20Instructions/"
   },"5": {
-    "doc": "Software Upgrades",
-    "title": "Upgrading your DiscoX device software",
-    "content": "The DiscoX software is open to continous improvment, to keep you device running smoothly and take advantage of new features it’s reccomended you keep up to date with the latest stable release. ",
-    "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#upgrading-your-discox-device-software",
+    "doc": "Software Updates",
+    "title": "Updating your software",
+    "content": "The DiscoX software is always being improved. To keep your device working well and get the latest features, it’s a good idea to update it to the newest official version whenever you can. In this chapter, you’ll learn how to easily update your device so it keeps running smoothly. ",
+    "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#updating-your-software",
     
-    "relUrl": "/docs/layout/Software%20Upgrades/#upgrading-your-discox-device-software"
+    "relUrl": "/docs/layout/Software%20Upgrades/#updating-your-software"
   },"6": {
-    "doc": "Software Upgrades",
+    "doc": "Software Updates",
     "title": "Table of contents",
-    "content": ". | Connecting the DiscoX to your PC | Taking a shot | . ",
+    "content": ". | Taking a shot | Connecting the DiscoX to your PC | . ",
     "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#table-of-contents",
     
     "relUrl": "/docs/layout/Software%20Upgrades/#table-of-contents"
   },"7": {
-    "doc": "Software Upgrades",
-    "title": "Connecting the DiscoX to your PC",
-    "content": "The device has a latching button switch to control power to the device, press the button for at least 50ms to turn the device on and press it again to turn the device off. ",
-    "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#connecting-the-discox-to-your-pc",
-    
-    "relUrl": "/docs/layout/Software%20Upgrades/#connecting-the-discox-to-your-pc"
-  },"8": {
-    "doc": "Software Upgrades",
+    "doc": "Software Updates",
     "title": "Taking a shot",
     "content": "Test Words . If the path to your favicon is /favicon.ico, you can leave favicon_ico unset. ",
     "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#taking-a-shot",
     
     "relUrl": "/docs/layout/Software%20Upgrades/#taking-a-shot"
+  },"8": {
+    "doc": "Software Updates",
+    "title": "Connecting the DiscoX to your PC",
+    "content": "The device has a latching button switch to control power to the device, press the button for at least 50ms to turn the device on and press it again to turn the device off. ",
+    "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/#connecting-the-discox-to-your-pc",
+    
+    "relUrl": "/docs/layout/Software%20Upgrades/#connecting-the-discox-to-your-pc"
   },"9": {
-    "doc": "Software Upgrades",
-    "title": "Software Upgrades",
+    "doc": "Software Updates",
+    "title": "Software Updates",
     "content": " ",
     "url": "/DiscoX_Documentation/docs/layout/Software%20Upgrades/",
     
@@ -99,7 +99,7 @@
   },"14": {
     "doc": "Introduction",
     "title": "The DiscoX",
-    "content": "This website is currently a work in progress. It will provide the most upto date technical infomation about the DiscoX cave survey device. The DiscoX is a cave surveying device based on the SAP6 platform. The main differences being, the case design, user interface and microcontroller hardware. ",
+    "content": "This website is currently a work in progress. It will provide the most upto date technical infomation about the DiscoX cave survey device. Test . The DiscoX is a cave surveying device based on the SAP6 platform. The main differences being, the case design, user interface and microcontroller hardware. ",
     "url": "/DiscoX_Documentation/#the-discox",
     
     "relUrl": "/#the-discox"

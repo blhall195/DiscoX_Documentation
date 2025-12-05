@@ -92,7 +92,7 @@
   },"13": {
     "doc": "User Instructions",
     "title": "Table of contents",
-    "content": ". | Buttons | Taking readings | Display | Blutooth &amp; memory | Settings . | DiscoX onboard menu | . | . ",
+    "content": ". | Buttons | Taking readings | Display | Blutooth &amp; memory | Settings . | Enter Calibration | Anomoly detection | Accuracy | Laser off | Shutdown | . | . ",
     "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#table-of-contents",
     
     "relUrl": "/docs/layout/User%20Instructions/#table-of-contents"
@@ -127,7 +127,7 @@
   },"18": {
     "doc": "User Instructions",
     "title": "Settings",
-    "content": "There are two ways to change the DiscoX settings: using the onboard menu, or editing a more comprehnsive settings.toml file after connecting the device to your PC. DiscoX onboard menu . To enter the onboard menu press and hold button 3. ",
+    "content": "There are two ways to change the DiscoX settings: using the onboard menu, or editing a more comprehnsive settings.toml file after connecting the device to your PC. To enter the onboard menu press and hold button 3. Enter Calibration . This puts the device into calibration mode, see calibration section. Anomoly detection . This checks for magnetic anomoies, e.g. putting the device too close to your helmet light, watch, srt kit or bolt. Sometimes gives false readings so can be turned off. Accuracy . With the current software version noise is supressed through averaing lots of readings, with the accuracy set high the device averages more readings before registering a shot. So it may be harder to take shots if you have a higher accuracy setting but your survey will be more accurate. Laser off . Having the laser on for long periods damages the laser and wastes battery, to prevent you from accidentally leaving it on you can make it automatically turn off after a set amount of time. Shutdown . This defines the amount of time of inactivity before the device is turned off. ",
     "url": "/DiscoX_Documentation/docs/layout/User%20Instructions/#settings",
     
     "relUrl": "/docs/layout/User%20Instructions/#settings"
